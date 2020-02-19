@@ -67,6 +67,7 @@ public class FPSMovementScript : MonoBehaviour
             speed = movementSpeed * sprintMultiplier;
         }
 
+        // Horizontal movement
         // Character Controller component takes care of moving up/down slopes/stairs etc.
         controller.Move(move * speed * Time.deltaTime);
 
@@ -82,6 +83,7 @@ public class FPSMovementScript : MonoBehaviour
         // v = v-1 + a*t , where v = final velocity, v-1 = initial velocity and a = acceleration (in this case g)
         velocity.y += gravity * Time.deltaTime;
 
+        // Vertical movement
         // dy = 0.5g * t^2
         controller.Move(0.5f * velocity * Time.deltaTime);
     }
