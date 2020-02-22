@@ -20,6 +20,7 @@ public class EnemyBehaviour : MonoBehaviour
     {
         state = EnemyState.Chasing;
         animator = gameObject.GetComponentInChildren<Animator>();
+        agent.speed = 6f;
     }
 
     // Update is called once per frame

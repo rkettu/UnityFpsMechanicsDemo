@@ -1,0 +1,5 @@
+1) HP + ammo pickups
+2) Fix enemy attack
+3) Weapons base class: reload, store ammo-data, update ammo-UI etc for child weapon
+4) Add projectile weapon
+5) Placeholder anims for reload etc
