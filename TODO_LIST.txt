@@ -1,6 +1,7 @@
-1) HP + ammo pickups
-2) Fix enemy attack (using RayCasts this way is probably bad)
-3) Weapons base class: reload, store ammo-data, update ammo-UI etc for child weapon
-	=> Implement system similiar to the one in wepsysreference
-4) Add projectile weapon
-5) Placeholder anims for reload etc
+-Add weapon collecting system, complete with icons/names/inventory
+
+Not very important/interesting:
+-Implement functionality for different types of weapons
+-HP + ammo pickups
+-Fix enemy attack (using RayCasts is often ineffective)
+-Placeholder anims for reload etc

@@ -1,1 +1,0 @@
-For future reference, one way of implementing a weapons system using inheritance
